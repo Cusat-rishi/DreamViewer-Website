@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "HCo Gotham SSm", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.whyushome {
+  width: 100vw;
+  height: 100vh;
+  /* position: absolute; */
+  /* background-image: url("C:\Users\Rishi\Desktop\react-UI\dreamview-web\src\images\home.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlaywhyus {
+  width: 100%;
+  height: 100%;
+  font-size: 38px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  font-weight: 700;
+}
+.overlaywhyus p {
+  color: white;
+}
+.contentwhyus-image {
+  display: flex;
+  margin-left: 50px;
+  padding: 40px;
+}
+.contents-containerwhyus {
+  /* height: 100vh; */
+  width: 100vh;
+  padding: 40px;
+  margin-right: 35px;
+  line-height: 27px;
+}
+.contents-containerwhyus h3 {
+  font-weight: 600;
+  color: #3e4348;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 44px;
+  margin-top: 150px;
+  padding: 20px;
+}
+.whyus-container h3,
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* margin-bottom: 20px; */
+}
+
+.whyus-container h3 {
+  font-size: 38px;
+  margin-top: 20px;
+  color: #3e4348;
+}
+.whyus-container p {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: #3e4348;
+  line-height: 30px;
+}
+.whyusboxelements-container {
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.whyus-box1,
+.whyus-box2,
+.whyus-box3,
+.whyus-box4,
+.whyus-box5 {
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+  flex: 1;
+  margin: 20px;
+  border: 1px solid #000;
+  background-color: rgb(3, 33, 116);
+  color: white;
+
+  /* transition: background-color 0.3s, transform 0.3s; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.whyus-box3:hover,
+.whyus-box4:hover,
+.whyus-box5:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.whyus-box1 {
+  height: 200px;
+  width: 200px;
+}
+.whyus-box2 {
+  height: 200px;
+  width: 200px;
+}
+.whyus-box1 h3,
+.whyus-box2 h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.whyus-box1 p,
+.whyus-box2 p,
+.whyus-box3 p,
+.whyus-box4 p,
+.whyus-box5 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.whyus-box3 {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+.whyus-box4 {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+.whyus-box5 {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}

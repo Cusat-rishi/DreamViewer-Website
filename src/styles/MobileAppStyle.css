@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.mobilehome {
+  width: 100vw;
+  height: 100vh;
+  /* position: absolute; */
+  /* background-image: url("C:\Users\Rishi\Desktop\react-UI\dreamview-web\src\images\home.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlaymobile {
+  width: 100%;
+  height: 100%;
+  font-size: 38px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  font-weight: 700;
+}
+.contentmobile-image {
+  display: flex;
+  margin-left: 50px;
+  padding: 40px;
+}
+.contents-containermobile {
+  /* height: 100vh; */
+  width: 100vh;
+  padding: 40px;
+  margin-right: 35px;
+  line-height: 27px;
+}
+.contents-containermobile h3 {
+  font-size: 36px;
+  color: #3e4348;
+}
+.contents-containermobile p {
+  color: #3e4348;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.contents-containermobileapp h3 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.contents-containermobileapp p {
+  line-height: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-size: 18px;
+}

@@ -1,0 +1,120 @@
+* {
+  font-family: "HCo Gotham SSm", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navigation-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.navigation-menu li {
+  margin: 0px 5px;
+}
+.navigation-menu li > a,
+.select-option {
+  text-decoration: none;
+  color: #e1e5e7;
+  font-weight: "500";
+  text-transform: uppercase;
+  font-size: 11px;
+  /* cursor: pointer; */
+  padding: 0px 7px;
+  display: block;
+}
+.navigation-menu li > a:hover {
+  color: white;
+  display: block;
+  background-color: rgb(114, 114, 113);
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+
+/*main section */
+
+/* end of options*/
+.button-Container {
+  background-color: #e1e5e7;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3e4348;
+  font-weight: "500";
+  padding: 12px 24px;
+  border-radius: 25px;
+  border: none;
+}
+.nounderline {
+  text-decoration: none;
+}
+.button-Container:hover {
+  box-shadow: 1px 1px 1px 1px;
+  color: black;
+  background-color: #f0f2f7;
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
+.custom-dropdown {
+  position: relative;
+}
+
+.select-container {
+  display: inline-block;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 11px;
+  font-weight: "500";
+  /* outline: none; */
+}
+
+.row {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.select-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  color: black !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.select-dropdown.open {
+  display: block;
+  margin-top: 10px;
+}
+.select-optionS a {
+  color: #333;
+  text-decoration: none;
+}
+.select-optionS {
+  text-decoration: none;
+  width: 30vh;
+  height: 5vh;
+  font-size: 12px;
+  color: #333;
+  font-weight: 500;
+  /* margin-right: 5px; */
+  /* color: black !important; */
+  background-color: white;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+  /* display: block; */
+}
+.select-optionS:hover {
+  background-color: #e6dddd;
+  /* color: white; */
+}
+/* .select-optionS,
+a:hover {
+  color: white;
+} */
+/* .select-optionS a:hover {
+  background-color: #3e4348;
+  color: white;
+} */

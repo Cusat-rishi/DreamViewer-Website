@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+.home{
+    width: 100vw;
+    height: 100vh;
+    /* position: absolute; */
+    /* background-image: url("C:\Users\Rishi\Desktop\react-UI\dreamview-web\src\images\home.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  .overlayabout{
+    width: 100%;
+    height:100%;
+    font-size: 38px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  .contents-image{
+    display: flex;
+    margin-left: 50px;
+    padding: 50px;
+    
+  }
+  .contents-container{
+    height: 100vh;
+    width: 100vh;
+    padding: 40px;
+    margin-right: 35px;
+    line-height: 28px;
+    margin-bottom: 250px;
+  }
+  .contents-container h2{
+    font-weight: 700;
+    color: #3e4348;
+    margin-bottom: 30px;
+    font-size: 38px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+  }
+  .contents-container h3{
+    font-weight: 600;
+    color: #3e4348;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .contents-container p{
+    font-weight: 500;
+    color: #3e4348;
+    padding: 5px;
+  }
+  .aboutlast-content h2{
+    font-weight: 700;
+    color: #3e4348;
+    margin-bottom: 30px;
+    font-size: 38px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+  }
+  .aboutlast-content h3{
+    font-weight: 700;
+    color: #3e4348;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .aboutlast-content p{
+    line-height: 45px;
+    font-weight: 500;
+    color: #3e4348;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }

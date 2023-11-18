@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.home {
+  width: 100vw;
+  height: 100vh;
+  /* position: absolute; */
+  /* background-image: url("C:\Users\Rishi\Desktop\react-UI\dreamview-web\src\images\home.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* 
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3e4348;
+  } */
+.overlayportfolio {
+  width: 100%;
+  height: 100%;
+  font-size: 42px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  margin-top: 40px;
+}
+.overlayportfolio h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.overlayportfolio P {
+  font-size: 40px;
+  font-weight: 600;
+}

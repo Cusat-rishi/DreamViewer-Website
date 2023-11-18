@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "HCo Gotham SSm", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jobshome {
+  width: 100vw;
+  height: 100vh;
+  /* position: absolute; */
+  /* background-image: url("C:\Users\Rishi\Desktop\react-UI\dreamview-web\src\images\home.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlayjobs {
+  width: 100%;
+  height: 100%;
+  font-size: 38px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  font-weight: 700;
+}
+.contentjobs-image {
+  display: flex;
+  margin-left: 50px;
+  padding: 40px;
+}
+.contents-containerjobs {
+  /* height: 100vh; */
+  width: 100vh;
+  padding: 40px;
+  margin-right: 35px;
+  line-height: 27px;
+}
+.contents-containerjobs h3 {
+  font-weight: 600;
+  color: #3e4348;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 44px;
+  margin-top: 150px;
+  padding: 20px;
+}
+.sectionjobs {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.jobsform {
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.sectionjobs input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.sectionjobs textarea {
+  height: 22vh;
+}
+.sectionjobs button {
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sectionjobs button:hover {
+  background-color: #45a049;
+}
